@@ -36,3 +36,4 @@ const backfillSlugs = async () => {
 };
 
 backfillSlugs();
+//backfillSlugs.js is a script that connects to the MongoDB database, retrieves all blog posts, and ensures that each post has a slug generated from its title. It also checks if the categories field is an array and initializes it if it's not. After processing all posts, it disconnects from the database. This script is useful for backfilling slugs for existing posts that may have been created before the slug field was added to the schema.
