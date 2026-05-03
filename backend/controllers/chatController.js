@@ -256,3 +256,4 @@ exports.writingTools = async (req, res) => {
     });
   }
 };
+// This chatController.js file defines two main functions: 'chat' and 'writingTools'. The 'chat' function handles incoming chat messages, generates rule-based replies for common questions, and integrates with the OpenAI API to provide more dynamic responses. The 'writingTools' function offers AI-powered assistance for writing tasks like generating titles, improving drafts, summarizing content, and suggesting tags. Both functions include fallback responses to ensure helpful output even if the AI integration fails or is unavailable.

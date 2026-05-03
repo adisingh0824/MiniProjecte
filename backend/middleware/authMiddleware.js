@@ -104,3 +104,4 @@ exports.adminOnly = (req, res, next) => {
 
   next();
 };
+//middleware/authMiddleware.js defines three middleware functions for handling authentication and authorization in the application. The 'protect' function checks for a valid JWT token, verifies it, and ensures the associated user exists before granting access to protected routes. The 'optionalProtect' function allows access to routes without a token but attaches user information if a valid token is provided. The 'adminOnly' function restricts access to certain routes to only admin users based on their usernames. These middleware functions are essential for securing the application's endpoints and managing user permissions effectively.
